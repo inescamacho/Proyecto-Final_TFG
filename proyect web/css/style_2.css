@@ -1,0 +1,233 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    /* background-color: #060407; */
+    font-size: 13px;
+}
+
+.super-logo {
+    background: url(https://cdn.leagueoflegends.com/riotbar/prod/1.6.49/images/navigation/icon-game-lol.png?1490118353) no-repeat 5px 8px;
+    display: inline-block;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.main-nav {
+    background-color: #121212;
+    border: none;
+    border-bottom: #292929 solid 2px;
+}
+
+.main-nav .container-fluid .navbar-collapse ul li a {
+    color: #c9aa71;
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-nav .container-fluid .navbar-collapse ul li a:hover {
+    color: #f1e6d0;
+    background-color: #121212;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+.dropdown-menu {
+    background-color: #121212;
+    color: #f1e6d0;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #c9aa71;
+}
+
+.hamburger {
+    /*content: 'â˜°'; */
+    color: #c9aa71;
+    cursor: pointer;
+    font-size: 26px;
+    left: 45px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    transition: none;
+    width: 26px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+@media (min-width: 768px) {
+    .main-nav-separator {
+        border-left: 2px solid #262626;
+        display: inline-block;
+        font-size: 14px;
+        height: 30px;
+        margin: 10px .25em;
+        vertical-align: top;
+    }
+    .navbar-collapse-desktop {
+        margin: auto;
+        width: 700px;
+    }
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-collapse {
+    border: none;
+    background-color: #121212;
+    float: none;
+}
+
+.heading-default {
+    color: #ff9c00;
+}
+
+
+table {
+    margin: 20px auto;
+    width: auto;
+    max-width: 1000px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    border-width: 5px;
+}
+th {
+    text-align: center;
+    color: #C0C0C0;
+}
+
+td {
+    padding: 8px;
+    text-align: justify;
+    border: 2px solid #ffffff;
+    color: #FF66CC;
+    background-color: #8b0000;
+    font-size: 10px;
+}
+th {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    color: #f60000;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+
+#partial-table {
+    height: 210px;
+    overflow: hidden;
+}
+
+#full-table {
+    display: none;
+}
+
+
+
+  .tabla1 {
+    transition: transform 0.5s ease-in-out;
+  }
+  .tabla1:hover{
+    transform: scale(1.1);
+
+  }
+  .tabla2 {
+    transition: transform 0.5s ease-in-out;
+  }
+  .tabla2:hover{
+    transform: scale(1.6);
+
+  }
+ 
+#show-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: #FF66CC;
+    background-color: #c0c0c0;
+    margin: 20px auto;
+    width: 15%;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+h2 {
+    color: goldenrod;
+    margin-left: 40;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 100;
+    font-family: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+  }
+
+  .progress-bar-fill {
+    height: 20px;
+    background-color: #3ff861;
+    border-radius: 5px;
+  }
+ 
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  #youtube-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    opacity: 80%;
+  }
+  
+  #content {
+    position: relative;
+    z-index: 1;
+    /* Estilos adicionales para el contenido de tu pÃ¡gina web */
+  }
+  
+#trailer {
+text-align: center;
+border: 4px solid goldenrod;
+background-color:  rgba(75, 0, 130) ;
+opacity: 90%;
+border-radius: 10%;
+}
+
+.even {
+    background-color: lightgray;
+}

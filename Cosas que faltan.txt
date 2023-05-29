@@ -1,0 +1,8 @@
+Mejorar pagina de soporte y vincular a la web
+Vincular BSD Y Pagina
+https://learn.microsoft.com/es-es/sql/connect/node-js/step-3-proof-of-concept-connecting-to-sql-using-node-js?view=sql-server-ver16
+(Solo necesitamos el paso 2)
+Crear pagina con la base de datos
+
+Mejorar estetica de la pagina
+Añadir noticias te twiiter etc.
